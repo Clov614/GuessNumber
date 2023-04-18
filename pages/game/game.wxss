@@ -1,0 +1,21 @@
+/* pages/game/game.wxss */
+
+
+.container {
+  margin-top: 20rpx;
+}
+
+input {
+  margin-top: 20rpx;
+  /* background-color: rgba(252, 177, 177, 0.616); */
+  border: 2rpx solid rgb(0, 131, 50);
+  border-radius: 15rpx;
+}
+
+button {
+  margin-top: 40rpx;
+}
+
+swiper {
+  margin-top: 20rpx;
+}

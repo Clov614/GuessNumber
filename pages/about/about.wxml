@@ -1,0 +1,13 @@
+<!--pages/about/about.wxml-->
+<view class="header">
+  <text>游戏规则  </text>
+</view>
+
+<view class="container">
+  <text>游戏规则：</text>
+  <text>1.系统随机生成一个1~100的数字让玩家猜</text>
+  <text>2.玩家共有4次机会</text>
+  <text>3.在4次及以内猜到则游戏成功</text>
+  <text>4.点击"重新开始"进入游戏画面</text>
+</view>
+

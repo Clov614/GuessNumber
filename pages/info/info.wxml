@@ -1,0 +1,10 @@
+<!--pages/info/info.wxml-->
+<view class="header">
+  <text>关于本游戏</text>
+</view>
+
+<view class="container">
+  <text>CopyRight@1.0v Beta</text>
+  <text>本游戏由Clover614出品</text>
+  <text>版权所有,翻版请随意</text>
+</view>

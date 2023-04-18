@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+
+<view class="header">
+  <text>游戏主页</text>
+</view>
+
+<view class="container">
+  <button type="primary" bindtap="go2game">开始游戏</button>
+  <button type="primary" bindtap="go2about">游戏规则</button>
+  <button type="primary" bindtap="go2info">关于游戏</button>
+</view>

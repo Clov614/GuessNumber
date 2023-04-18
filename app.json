@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/game/game",
+    "pages/info/info",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F0FFF0",
+    "navigationBarTitleText": "猜数字小游戏",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

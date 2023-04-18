@@ -1,0 +1,18 @@
+<!--pages/game/game.wxml-->
+
+
+<view class="container">
+  <text>欢迎来到猜数字小游戏{{targetNum}}</text>
+  <block wx:if="{{!restartFlag}}">
+    <input type="text" placeholder="请输入1-100的数字" bindinput="handleInput"/>
+    <button type="primary" bindtap="submit">提交</button>
+  </block>
+  <button type="primary" bindtap="restart" wx:if="{{restartFlag}}">重新开始</button>
+  <view wx:for="{{ansArray}}" wx:key="id">
+      <text>第{{index+1}}回合:{{item.num}}{{item.msg}}</text>
+  </view>
+  <text wx:if="{{msg != ''}}">{{msg}}</text>
+  <text wx:if="{{inputData == 'cqy' || inputData == 'love'}}">{{surprise}}</text>
+</view>
+
+
